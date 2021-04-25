@@ -27,22 +27,34 @@
 </div>
     <h3>Gallery</h3><label for="img">
     
-<br><img src="image1.png" width="35%"></br>
-<br><img src="image4.png" width="35%"></br>
-<br><img src="image3.png" width="35%"></br>
-<br><img src="image5.png" width="35%"></br>
-<br><img src="image6.png" width="35%"></br>
-<br><img src="image7.png" width="35%"></br>
+ <!-- Container for our gallery -->
+ <div class="container">
+    <!-- Main view of our gallary -->
+    <div class="main_view">
+        <img src="image3.png" id="main" alt="IMAGE">
+    </div>
+
+    <!-- All images with side view -->
+    <div class="side_view">
+        <img src="image4.png" onclick="change(this.src)">
+        <img src="image5.png" onclick="change(this.src)">
+        <img src="image6.png" onclick="change(this.src)">
+        <img src="image1.png" onclick="change(this.src)">
+        <img src="image7.png" onclick="change(this.src)">
+    </div>
+
+  <script type="text/javascript">
+        const change = src => {
+            document.getElementById('main').src = src
+        }
+  </script>
     
-<div>
 <p> 
         As this is art and crafts, we would not recommend that you 
         send in Lego items. We hope that you enjoy our selection and we
         cannot wait to view yours too!
 </p>
 </div>
-   
-
 </body>
 <html>
 
