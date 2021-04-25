@@ -1,10 +1,11 @@
 @import url('https://fonts.googleapis.com/css2?family=Original+Surfer&display=swap');
+
 *{
     background-color:rgb(76, 231, 218);
  }
 
 h1{
-    font-size::xx-large;font-family: cursive;
+    font-size:xx-large;font-family: cursive;
     color: rgb(168, 105, 3); text-align: center;
 }
 h2,h3,h4{
@@ -23,7 +24,7 @@ img{
     height: auto;
 }
 img{
-    display:flexbox;
+    display:block;
     margin-left: auto;
     margin-right: auto;
 }
