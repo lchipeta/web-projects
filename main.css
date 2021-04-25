@@ -28,3 +28,33 @@ img{
     margin-left: auto;
     margin-right: auto;
 }
+/*Setting Basic Dimensions to give 
+    gallary view */
+    .container{
+        margin: 0 auto;
+        width: 90%;
+    }
+    .main_view{
+        width: 100%;
+        height:30rem;
+    }
+    .main_view img{
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+    }
+    .side_view{
+        display:flex;
+        justify-content: center;
+        flex-wrap:nowrap;
+    }
+    .side_view img{
+        width:9rem;
+        height: 7rem;
+        object-fit: cover;
+        cursor: pointer;
+        margin:0.5rem;
+    }
+
+
+
