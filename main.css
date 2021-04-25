@@ -1,19 +1,29 @@
-@import url('https://fonts.googleapis.com/css2?family=Gloria+Hallelujah&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Original+Surfer&display=swap');
 *{
-    background-color: turquoise;
-    box-sizing: border-box;
-  
-}
+    background-color:rgb(76, 231, 218);
+ }
 
 h1{
-    font-size: 100px;
-}
-
+    font-size::xx-large;font-family: cursive;
+    color: rgb(168, 105, 3); text-align: center;
+  }
+h2,h3,h4{
+   font-size:larger; font-family: cursive;
+   color: rgb(156, 21, 156);
+} 
 p{
     padding: 5px 50px 50px;
 }
 
-
 .headingfont{
-    font-family: 'Gloria Hallelujah', cursive;
+    font-family: 'Original Surfer', cursive;
+}
+img{
+    max-width:  width 100px; 
+    height: auto;
+}
+img{
+    display:flexbox;
+    margin-left: auto;
+    margin-right: auto;
 }
