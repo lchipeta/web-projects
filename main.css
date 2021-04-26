@@ -39,14 +39,14 @@ img{
         height:30rem;
     }
     .main_view img{
-        width: 100%;
-        height: 100%;
+        width: 75%;
+        height: 75%;
         object-fit: cover;
     }
     .side_view{
-        display:flex;
+        display:-webkit-box;
         justify-content: center;
-        flex-wrap:nowrap;
+        flex-wrap:wrap-reverse;
     }
     .side_view img{
         width:9rem;
