@@ -29,7 +29,7 @@ img{
     margin-right: auto;
 }
 /*Setting Basic Dimensions to give 
-    gallary view */
+    gallery view */
     .container{
         margin: 0 auto;
         width: 90%;
@@ -56,9 +56,8 @@ img{
         margin:0.5rem;
     }
 
-
     a:link, a:visited {
-        background-color: #f7aa05;
+        background-color:#f7aa05;
         color:turquoise;
         padding: 0px 0px;
         text-align: center;
