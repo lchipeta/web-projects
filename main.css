@@ -46,7 +46,7 @@ img{
     .side_view{
         display:-webkit-box;
         justify-content: center;
-        flex-wrap:wrap-reverse;
+        flex-wrap:wrap;
     }
     .side_view img{
         width:9rem;
